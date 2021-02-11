@@ -8,6 +8,9 @@ const Landing = () => {
     <>
       <Header />
       <Archive />
+      {/* About */}
+      {/* Gallery */}
+      {/*  */}
     </>
   );
 };

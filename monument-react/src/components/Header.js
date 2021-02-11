@@ -1,5 +1,6 @@
 const Header = () => {
   return (
+    <>
     <header className="vertical-center">
 
       <div>
@@ -7,6 +8,7 @@ const Header = () => {
         <h2>A Lifestyle Magazine</h2>
       </div>
     </header>
+  </>
   );
 };
 
