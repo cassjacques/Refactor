@@ -1,14 +1,15 @@
-import React from 'react';
+import BlogCSS from './Blog.css';
+import BlogNavbar from './BlogNavbar';
+import BlogFooter from './BlogFooter';
 
-const Blog = () => {
-  return (
-    <div>
-      <h1>Blog</h1>
-      {/* Replace the h1 above with the componets for Blog */}
-      {/* You need to create these componets from the Blog html file */}
-      {/* Don't forget the Blog CSS */}
-    </div>
-  )
-}
+const BlogBody = () => {
+    return (
+        <>
+        <BlogNavbar />
+        <BlogBody />
+        <BlogFooter />
+        </>
+    );
+};
 
-export default Blog;
+export default BlogBody;
